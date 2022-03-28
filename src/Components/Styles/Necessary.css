@@ -46,7 +46,7 @@
 .btn {
     padding: 15px;
     cursor: pointer;
-    border-radius:5px ;
+    border:none ;
 }
 .bd-rad{
     border-radius: 5px;

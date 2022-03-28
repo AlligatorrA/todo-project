@@ -1,35 +1,34 @@
 import React from 'react'
 
 import './Styles/Home.css'
+import './Styles/Product.css'
 
 function Home() {
     return (
-        <div >
-            <div className="homContainer">
-                <div className="leftSideBox marginAll dis-flex coln-flex  just-center align-center">
-                    <div className="spacerhalf"></div>
-                    <h1>Time</h1>
-                    <h2 className='marginAll'>No Seiously! What is Time..?</h2>
-                    <div className="spacerhalf"></div>
-                    <h2>Is Time Linear, Spiral or a 'Never Ending Circle'...?</h2>
-                    <p className='marginAll'><b><i>'The end is the beginning, and the beginning is the end.'</i>...#Dark</b></p>
-                    <h3>lets Explore Together</h3>
-                    <div className="spacerhalf"></div>
-                    <h1 className='marginAll'>60% off on 1st buy.</h1>
-                    <div className="  dis-flex just-center ">
+        // <div >
+        <div className="homContainer">
+            <div className="leftSideBox marginAll card-footer coln-flex">
+                <div className="spacerhalf "></div>
+                <div>
 
-                        <button className='  pTectColor  btn '>  Buy Watch </button>
+                    <h1 className=' marginAll'>Here is your  Modern </h1>
+                    <h1 className='pTectColor marginAll'>Note Taking App</h1>
+                    <p className=' font1en  marginAll '><b>manage your daily notes in just one click... </b>daily task in modern way without any effort <b>store your notes and important information degitally</b></p>
 
-
-                        <button className='pTectColor  btn '>  Travel Through Time   </button>
-
-                    </div>
+                    <div className="spacer01"></div>
                 </div>
-                <div className="rightSideBox marginAll">
-                    <img className='img-div' src='https://cdnb.artstation.com/p/assets/images/images/011/015/455/large/syed-ali-qaiser-time5.jpg?1527439615' width='100%' alt="" />
+                <div className=''>
+
+                    <button className='pTectColor  btn font1en marginAll'>  Join Now</button>
+                    <button className='pTectColor  btn font1en marginAll'>  Already have an account</button>
+
                 </div>
             </div>
+            <div className="rightSideBox marginAll">
+                <img className='img-div' src='https://www.onlineclassassist.com/wp-content/uploads/2019/09/1524-Blog-Image-01-640-x-341-Note-Taking-Tips-for-Online-Students-1280x720.jpg' width='100%' alt="" />
+            </div>
         </div>
+        // </div>
     )
 }
 
