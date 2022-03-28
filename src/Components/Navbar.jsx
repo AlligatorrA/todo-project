@@ -5,8 +5,10 @@ import './Styles/navbar.css'
 import './Styles/Necessary.css'
 import './Styles/Universal.css'
 import './Styles/Aside.css'
+import { useTheme } from "./Context/theme-context";
 
 function Navbar() {
+    const { ThemeToogle } = useTheme()
     return (
         <div>
             <header className="doc_header">
@@ -18,7 +20,7 @@ function Navbar() {
                     </Link>
 
                     <div className="padding01 margin-left options_nav dis-flex align-center ">
-                        <span id="dark-theme" className="padding01 btn ">
+                        <span id="dark-theme" className="padding01 btn" onClick={ThemeToogle}>
                             <i className="fa-solid fa-sun"></i>
                         </span>
                     </div>

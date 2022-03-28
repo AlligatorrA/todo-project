@@ -13,7 +13,7 @@ function Home() {
 
                     <h1 className=' marginAll'>Here is your  Modern </h1>
                     <h1 className='pTectColor marginAll'>Note Taking App</h1>
-                    <p className=' font1en  marginAll '><b>manage your daily notes in just one click... </b>daily task in modern way without any effort <b>store your notes and important information degitally</b></p>
+                    <p className=' font1en  marginAll '><b>manage your daily notes in just one click... </b>daily task in modern way without any effort <b>store your notes and important information degitally.</b></p>
 
                     <div className="spacer01"></div>
                 </div>
